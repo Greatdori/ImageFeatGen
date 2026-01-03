@@ -72,7 +72,6 @@ class PHash {
     private func dct(_ image: CIImage, _ size: Int) -> [Float] {
         var pixels = Array<Float>(repeating: 0, count: size * size)
         
-        let colorSpace = CGColorSpaceCreateDeviceGray()
         coreImageContext.render(
             image,
             toBitmap: &pixels,

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8C2EBF3C2F067F79006BC253 /* PHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EBF3B2F067F77006BC253 /* PHash.swift */; };
+		8C2EBF3E2F06DEF1006BC253 /* RectFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2EBF3D2F06DEE9006BC253 /* RectFinder.swift */; };
 		8CBFD9B52F025F6E0069585F /* SaveImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFD9B42F025F680069585F /* SaveImages.swift */; };
 		8CBFF31B2F0130960069585F /* CommandLineEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CBFF3192F0130960069585F /* CommandLineEntry.swift */; };
 		8CBFF31E2F0130AB0069585F /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 8CBFF31D2F0130AB0069585F /* ArgumentParser */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		8C2EBF3B2F067F77006BC253 /* PHash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHash.swift; sourceTree = "<group>"; };
+		8C2EBF3D2F06DEE9006BC253 /* RectFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectFinder.swift; sourceTree = "<group>"; };
 		8CBFD9B42F025F680069585F /* SaveImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveImages.swift; sourceTree = "<group>"; };
 		8CBFF30D2F0130810069585F /* ImageFeatGen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImageFeatGen; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBFF3192F0130960069585F /* CommandLineEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandLineEntry.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				8CBFF3282F01378C0069585F /* Generation.swift */,
 				8CBFF32E2F01459B0069585F /* Comparing.swift */,
 				8CBFD9B42F025F680069585F /* SaveImages.swift */,
+				8C2EBF3D2F06DEE9006BC253 /* RectFinder.swift */,
 			);
 			path = ImageFeatGen;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				8CBFD9B52F025F6E0069585F /* SaveImages.swift in Sources */,
 				8CBFF32F2F01459D0069585F /* Comparing.swift in Sources */,
 				8C2EBF3C2F067F79006BC253 /* PHash.swift in Sources */,
+				8C2EBF3E2F06DEF1006BC253 /* RectFinder.swift in Sources */,
 				8CBFF31B2F0130960069585F /* CommandLineEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

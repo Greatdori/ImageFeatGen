@@ -45,6 +45,12 @@ struct CommandLineEntry: AsyncParsableCommand {
                 preconditionFailure()
             }
             try await saveImages(to: URL(filePath: output))
+        case .rect:
+            guard let input else {
+                print("error: Input image required")
+                preconditionFailure()
+            }
+            try findRects(in: URL(filePath: input))
         }
     }
     
@@ -52,5 +58,6 @@ struct CommandLineEntry: AsyncParsableCommand {
         case generate
         case compare
         case save
+        case rect
     }
 }
